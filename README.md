@@ -12,9 +12,10 @@ npm install -D eslint-config-zvalley
 ```
 
 ## Rule reference
-| rule | description | eslint:recommended | zvalley:essential（默认） | zvalley:recommended |  |
-| --- | --- | --- | --- | --- | --- |
-| eqeqeq | Require the use of `===` and `!==` | off | error |  |  |
-| no-unused-vars | Disallow unused variables | error | ["error", { "argsIgnorePattern": "^_" }] |  |  |
-| quotes | Enforce the consistent use of either backticks, double, or single quotes | off | ["error", "double", { "avoidEscape": true }] |  |  |
-| semi | Require or disallow semicolons instead of ASI | off | ["error", "always"] |  |  |
+
+| rule | description | eslint:recommended | zvalley:essential（默认） | zvalley:recommended |
+| --- | --- | --- | --- | --- |
+| eqeqeq | Require the use of `===` and `!==` | off | error |  |
+| no-unused-vars | Disallow unused variables | error | ["error", { "argsIgnorePattern": "^_" }] |  |
+| quotes | Enforce the consistent use of either backticks, double, or single quotes | off | ["error", "double", { "avoidEscape": true }] |  |
+| semi | Require or disallow semicolons instead of ASI | off | ["error", "always"] |  |
