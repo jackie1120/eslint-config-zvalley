@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-zvalley",
+  "version": "0.1.0",
+  "description": "Zvalley eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackie1120/eslint-config-zvalley.git"
+  },
+  "author": "hao.huang<hao.huang@outlook.com>",
+  "license": "MIT"
+}
